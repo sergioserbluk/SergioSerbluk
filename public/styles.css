@@ -1,0 +1,43 @@
+body {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #353b48;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    font-size: 1em;
+}
+
+span {
+    color: #0984e3;
+}
+
+input {
+    border: 1px solid #999999;
+    padding: .8rem;
+    transition: all 300ms ease;
+    display: inline-block;
+    position: relative;
+    font-family: inherit;
+    background: transparent;
+}
+
+button {
+    border: none;
+    padding: .92rem;
+    cursor: pointer;
+    color: white;
+    background: #0984e3;
+}
